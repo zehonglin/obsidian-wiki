@@ -1,0 +1,92 @@
+# Wiki Index
+
+> 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
+> 每次新增/修改页面必更新本文件。
+> Last updated: 2026-07-11 | Total pages: 0
+
+## Conventions
+
+- 字母序（同一类型内）
+- 每条格式：`- [[page-slug]] — 一句话摘要（≤60 字）`
+- 新增页面立即追加到对应分区
+
+---
+
+## Manager (大总管)
+
+### Entities
+
+<!-- 大总管专属的实体：人、项目、机构 -->
+
+### Concepts
+
+<!-- 管理方法论、时间管理、协作流程 -->
+
+### Queries
+
+<!-- 沉淀的问答 -->
+
+---
+
+## Research (科研助手)
+
+### Entities
+
+<!-- AI 模型、研究者、实验室、公司、论文 -->
+
+### Concepts
+
+<!-- 论文核心概念、方法论、评测基准 -->
+
+### Comparisons
+
+<!-- 论文/方法横向对比 -->
+
+### Queries
+
+<!-- 沉淀的检索结果、综合分析 -->
+
+---
+
+## Teaching (教学助手)
+
+### Entities
+
+<!-- 课程、学生、教材、教师 -->
+
+### Concepts
+
+<!-- 教学方法、知识点 -->
+
+### Queries
+
+<!-- 沉淀的答疑 -->
+
+---
+
+## Shared (跨域共享)
+
+### Entities
+
+<!-- 跨域通用：老板本人、学校、跨域项目 -->
+
+### Concepts
+
+<!-- 跨域通用概念 -->
+
+### Comparisons
+
+<!-- 跨域对比 -->
+
+### Queries
+
+<!-- 跨域综合问答 -->
+
+---
+
+## Schema / Meta
+
+- [[SCHEMA]] — wiki 规范与 agent 边界
+- _meta/topic-map.md — 主题地图（破 200 页时建）
+- _meta/conflicts.md — 待裁决矛盾清单
+- _meta/archive/ — 归档页

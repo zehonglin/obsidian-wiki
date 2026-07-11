@@ -1,0 +1,26 @@
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI agent 临时文件
+*.tmp
+*.bak
+
+# Obsidian 配置（可选保留，按需）
+# .obsidian/workspace.json
+
+# 大文件（图片原始资源不上传，看情况）
+raw/assets/*.tmp
+
+# 日志归档（按年轮转）
+_meta/archive/
+
+# Git 大文件限制
+*.zip
+*.tar.gz
