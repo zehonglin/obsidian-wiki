@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-11 | Total pages: 0
+> Last updated: 2026-07-11 | Total pages: 7
 
 ## Conventions
 
@@ -32,11 +32,16 @@
 
 ### Entities
 
-<!-- AI 模型、研究者、实验室、公司、论文 -->
+- [[paper-2026-001-3d-mix]] — 3D-Mix：VGGT 3D 信息注入 VLA 的即插即用模块（arxiv 2603.24393，T008）
+- [[paper-2025-002-og-vla]] — OG-VLA：正交视图生成的 3D-aware VLA（arxiv 2506.01196，T008）
+- [[paper-2026-013-world2vlm]] — World2VLM：把世界模型的空间想象力蒸馏到 VLM（arxiv 2604.26934，T008）
+- [[paper-2026-018-starry]] — STARRY：时空动作中心的操作世界模型（arxiv 2604.26848v2，T008）
+- [[paper-2026-019-rise]] — RISE：组合世界模型 + 想象空间自改进（arxiv 2602.11075v2，RSS 2026，T008+T010）
 
 ### Concepts
 
-<!-- 论文核心概念、方法论、评测基准 -->
+- [[concept-t008-3d-vla]] — T008 选题总览：3D 视觉增强 VLA（3 条技术路线收敛）
+- [[concept-world-model-distillation]] — 世界模型蒸馏：用想象训练替代物理交互
 
 ### Comparisons
 

@@ -46,3 +46,29 @@
 - 4 文件：.gitignore, SCHEMA.md, index.md, log.md
 - 凭证：老板提供了 GitHub PAT，token 已使用并清掉本地痕迹
 - 网络：云端到 github.com 不稳定（前面 2 次 push 超时失败，第 3 次才通）
+
+### [2026-07-11 23:30] ingest | First batch: 5 papers on T008 (3D+VLA) | research
+来源：`/root/.openclaw/agents/research-manager/workspace/literature/papers/` 中 5 篇代表性论文
+- 2026-001-3D-Mix（VGGT 融合 + 即插即用）
+- 2025-002-OG-VLA（正交视图 + 视角不变性）
+- 2026-013-World2VLM（世界模型蒸馏 VLM）
+- 2026-018-STARRY（时空扩散 + GASAM）
+- 2026-019-RISE（组合世界模型 + 想象空间自改进）
+
+新建 wiki 页（7 个）：
+- research/entities/paper-2026-001-3d-mix.md
+- research/entities/paper-2025-002-og-vla.md
+- research/entities/paper-2026-013-world2vlm.md
+- research/entities/paper-2026-018-starry.md
+- research/entities/paper-2026-019-rise.md
+- research/concepts/concept-t008-3d-vla.md（选题总览）
+- research/concepts/concept-world-model-distillation.md（跨论文概念）
+
+复制 raw 文件：
+- raw/papers/2026-001-3D-Mix.md, 2025-002-OG-VLA.md, 2026-013-World2VLM.md, 2026-018-STARRY.md, 2026-019-RISE.md
+
+更新：index.md（research 分区填入 7 条）
+
+大总管代行（老板指令）。下次科研 ingest 应转交科研助手。
+
+### [2026-07-11 23:30] update | SCHEMA.md: note first batch exception | shared
