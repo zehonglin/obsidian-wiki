@@ -72,3 +72,7 @@
 大总管代行（老板指令）。下次科研 ingest 应转交科研助手。
 
 ### [2026-07-11 23:30] update | SCHEMA.md: note first batch exception | shared
+
+### [2026-07-11 23:39] update | README.md created | main
+- 添加仓库顶层 README.md（仓库介绍、目录、agent 边界、接入方式）
+- 远端推送（SSH 走顺，14KB）
