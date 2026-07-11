@@ -39,3 +39,10 @@
 - 试点：选 5-10 篇代表性论文作为样板
 - 计划写入位置：research/concepts/（方法）、research/entities/（论文/模型）、research/comparisons/
 - 等老板确认推送凭证后执行
+
+### [2026-07-11 23:21] config | git push succeeded | main
+- 远端：https://github.com/zehonglin/obsidian-wiki
+- 提交 SHA: e8b98bc
+- 4 文件：.gitignore, SCHEMA.md, index.md, log.md
+- 凭证：老板提供了 GitHub PAT，token 已使用并清掉本地痕迹
+- 网络：云端到 github.com 不稳定（前面 2 次 push 超时失败，第 3 次才通）
