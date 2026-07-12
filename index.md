@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 19
+> Last updated: 2026-07-12 | Total pages: 25
 
 ## Conventions
 
@@ -34,14 +34,20 @@
 ### Entities
 
 - [[paper-2026-001-3d-mix]] — 3D-Mix：VGGT 3D 信息注入 VLA 的即插即用模块（arxiv 2603.24393，T008）
+- [[paper-2026-005-vla-fool]] — VLA-Fool：多模态对抗攻击框架（文本+视觉+跨模态，失败率>93%，T009）
 - [[paper-2025-002-og-vla]] — OG-VLA：正交视图生成的 3D-aware VLA（arxiv 2506.01196，T008）
 - [[paper-2026-013-world2vlm]] — World2VLM：把世界模型的空间想象力蒸馏到 VLM（arxiv 2604.26934，T008）
 - [[paper-2026-018-starry]] — STARRY：时空动作中心的操作世界模型（arxiv 2604.26848v2，T008）
 - [[paper-2026-019-rise]] — RISE：组合世界模型 + 想象空间自改进（arxiv 2602.11075v2，RSS 2026，T008+T010）
 - [[paper-2026-014-llm-safety-robot-care]] — LLM 在机器人护理场景的安全评测（72 模型对比，T009）
+- [[paper-2026-040-rovla]] — RoVLA：多一致性约束增强 VLA 鲁棒性（IC+EC+OC，T009/T008）
+- [[paper-2026-046-pre-vla]] — Pre-VLA：VLA 动作执行前运行时验证（+6.83pp，T009）
 - [[paper-2026-020-world-env]] — World-Env：用世界模型做 VLA RL 后训练虚拟环境（T010，仅 5 demo）
 - [[paper-2026-021-motubrain]] — MotuBrain：统一世界动作模型（T008/T009/T010，RoboTwin 95%+）
 - [[paper-2026-022-wam-survey]] — WAM 综述：200+ 论文统分六大支柱（T008/T009/T010 地图）
+- [[paper-2026-063-libero-safety]] — LIBERO-Safety：VLA 物理+语义安全基准（19,664 条，ECCV 2026，T009）
+- [[paper-2026-080-foresight-safety-vla]] — ForesightSafety-VLA：13 类安全分类+过程级度量（T009）
+- [[paper-2026-096-oopsieverse]] — OopsieVerse：物理损伤感知仿真+32 任务基准（RSS 2026，T009）
 - [[paper-2026-060-memorywam]] — MemoryWAM：带持久记忆的高效 WAM（T008/T010）
 
 ### Concepts

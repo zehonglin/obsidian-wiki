@@ -135,3 +135,33 @@
 - ...
 
 按 wiki roadmap 应转交科研助手自取，但老板直接指令可走"大总管代行"模式。
+
+### [2026-07-12 12:27] ingest | Batch 3: VLA Safety & Robustness — 6 papers + 1 concept update | research
+来源：`/root/.openclaw/agents/research-manager/workspace/literature/papers/` 中 T009（VLA 安全）方向的 6 篇代表性论文
+
+**科研助手首次自取**（前两批由大总管代行）
+
+主题：**VLA Safety & Robustness (T009)** — 从攻击、防御、运行时、评测四个维度构建 VLA 安全研究全景
+
+新建 6 个 paper entity（research/entities/）：
+- [[paper-2026-005-vla-fool]] — 多模态对抗攻击（文本+视觉+跨模态，失败率>93%）
+- [[paper-2026-040-rovla]] — 多一致性约束鲁棒性训练（IC+EC+OC）
+- [[paper-2026-046-pre-vla]] — 先发式运行时动作验证（+6.83pp）
+- [[paper-2026-063-libero-safety]] — 物理+语义安全综合基准（ECCV 2026）
+- [[paper-2026-080-foresight-safety-vla]] — 诊断级安全基准（13 类，过程级度量）
+- [[paper-2026-096-oopsieverse]] — 物理损伤感知仿真基准（RSS 2026）
+
+更新 1 个 concept（research/concepts/）：
+- [[concept-t009-safety-robustness]] — 新增「安全研究三维框架」（攻击-防御-评测），6 篇论文 cross-reference
+
+raw sources 同步：
+- raw/papers/ 新增 6 份论文笔记
+
+index.md 更新：research/entities +6，总页数 19→25
+
+选题覆盖进展：
+- T008（3D+VLA）：5 篇（不变）
+- T009（VLA 安全）：1 篇 → **7 篇**（+6，含 2 个 ECCV/RSS 顶会基准）
+- T010（数据效率）：3 篇（不变）
+
+操作员：科研助手 (research-manager)
