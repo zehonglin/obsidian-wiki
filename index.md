@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 41
+> Last updated: 2026-07-12 | Total pages: 49
 
 ## Conventions
 
@@ -63,6 +63,13 @@
 - [[paper-2026-100-sarl]] — SARL：语义空间 RL 适配通用机器人策略（T012）
 - [[paper-2026-103-worldsample]] — WorldSample：世界模型增强的真实机器人闭环 RL（+28%，T012）
 - [[paper-2026-088-ppo-eal]] — PPO-EAL：精确增广拉格朗日 PPO 安全机器人控制（T009/T012）
+- [[paper-2026-006-metanav]] — MetaNav：元认知推理驱动的视觉语言导航（GOAT-Bench SOTA，T013）
+- [[paper-2026-052-uni-lavira]] — Uni-LaViRA：零训练三层 Agent 跨四类机器人导航（HM3D 77.7%，T013）
+- [[paper-2026-073-moe-rl-fault-tolerant]] — MoE-RL：故障容忍腿足机器人混合专家 RL（T013/T012）
+- [[paper-2026-090-cwi-humanoid-locomanipulation]] — CWI：人形全身解耦模仿（行走+操作，T013/T011）
+- [[paper-2026-091-booster-lab]] — Booster Lab：data-centric 人形运动策略学习（T013/T010）
+- [[paper-2026-093-vlk]] — VLK：3DGS 合成 48K 轨迹学习人形 loco-manipulation（T013/T008）
+- [[paper-2026-095-human-as-humanoid]] — Human-as-Humanoid：人类视频零样本人形迁移（4.8-7.2×，T013/T010）
 
 ### Concepts
 
@@ -72,6 +79,7 @@
 - [[concept-world-model-distillation]] — 世界模型蒸馏：用想象训练替代物理交互
 - [[concept-t011-manipulation]] — T011 选题：操作与灵巧操作（5 维度，7 篇覆盖）
 - [[concept-t012-rl-training]] — T012 选题：VLA 的 RL 训练（6 条技术路线，7 篇覆盖）
+- [[concept-t013-navigation]] — T013 选题：导航与运动（3 条路线，7 篇覆盖，零训练→合成数据→RL）
 
 ### Comparisons
 

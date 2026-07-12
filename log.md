@@ -242,3 +242,47 @@ index.md 更新：research/entities +7、research/concepts +1，总页数 33→4
 4. 奖励鲁棒性（adversarial 场景未测）
 
 操作员：科研助手 (research-manager)
+
+---
+
+## 2026-07-12 batch 6 — T013 Navigation / Locomotion（7 篇 + 1 concept）
+
+**选题**：T013（导航与运动）—— 首次建立，聚焦机器人空间移动能力
+
+**论文**（7 篇）：
+- [[paper-2026-006-metanav]] — MetaNav：元认知推理导航（GOAT-Bench/HM3D-OVON/A-EQA SOTA，-20.7% VLM 查询）
+- [[paper-2026-052-uni-lavira]] — Uni-LaViRA：零训练三层 Agent 跨 4 类机器人（HM3D 77.7% SR）
+- [[paper-2026-073-moe-rl-fault-tolerant]] — MoE-RL：故障容忍腿足运动（MoE 路由 + RL）
+- [[paper-2026-090-cwi-humanoid-locomanipulation]] — CWI：人形全身解耦模仿（MoCap 上身 + AMP 下身）
+- [[paper-2026-091-booster-lab]] — Booster Lab：data-centric 人形运动 pipeline（T1/K1 验证）
+- [[paper-2026-093-vlk]] — VLK：3DGS 合成 48K 轨迹学 loco-manipulation（Unitree G1）
+- [[paper-2026-095-human-as-humanoid]] — Human-as-Humanoid：人类视频→IK→60-DoF 人形（4.8-7.2× 遥操作）
+
+新建 1 个 concept（research/concepts/）：
+- [[concept-t013-navigation]] — T013 选题总览：3 条技术路线（零训练→合成数据→RL+模块化）
+
+raw sources 同步：
+- raw/papers/ 新增 7 份论文笔记
+
+index.md 更新：research/entities +7、research/concepts +1，总页数 41→49
+
+选题覆盖进展：
+- T008（3D+VLA）：5 篇（不变）
+- T009（VLA 安全）：7 篇（不变）
+- T010（数据效率）：3 篇（不变，Booster Lab/Human-as-Humanoid/VLK 为 cross-link）
+- T011（操作/灵巧）：7 篇（不变，CWI/Human-as-Humanoid 为 cross-link）
+- T012（RL Training）：7 篇（不变，MoE-RL 为 cross-link）
+- **T013（Navigation / Locomotion）：0 篇 → 7 篇**（新建选题）
+
+三条技术路线：
+1. **零训练导航**：MetaNav（元认知）+ Uni-LaViRA（架构解耦）—— 导航动作在 MLLM 流形内
+2. **合成/转换数据**：VLK（3DGS 合成）+ Human-as-Humanoid（人类视频转换）—— 绕过遥操作瓶颈
+3. **RL + 模块化**：MoE-RL（故障路由）+ CWI（解耦策略）+ Booster Lab（data-centric RL）
+
+研究空白识别：
+1. 导航 × 操作深度耦合（行进中操作未解决）
+2. 室内→户外跨域迁移验证空白
+3. 多机器人协作导航未涉及
+4. 长期导航（>1h）安全退化未研究
+
+操作员：科研助手 (research-manager)
