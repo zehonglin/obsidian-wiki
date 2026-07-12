@@ -165,3 +165,41 @@ index.md 更新：research/entities +6，总页数 19→25
 - T010（数据效率）：3 篇（不变）
 
 操作员：科研助手 (research-manager)
+
+### [2026-07-12 12:54] ingest | Batch 4: Manipulation / Dexterous — 7 papers + 1 concept | research
+来源：`/root/.openclaw/agents/research-manager/workspace/literature/papers/` 中 Manipulation/Dexterous 方向的 7 篇代表性论文
+
+**科研助手第二次自取**（batch 3 后继续）
+
+主题：**Manipulation / Dexterous (T011)** — 从灵巧控制、双臂协调、可供性、长时程操作、评测基准五个维度构建操作研究全景
+
+新建 7 个 paper entity（research/entities/）：
+- [[paper-2026-033-handitl]] — 人机协同灵巧修正（抖动↓99.8%）
+- [[paper-2026-038-dexora]] — 36-DoF 双臂灵巧开源 VLA（ICRA 2026）
+- [[paper-2026-053-bora]] — 灵巧 VLA 离线-在线 RL 后训练（成功率+33%）
+- [[paper-2026-042-affordvla]] — 隐式可供性对齐增强操作（+20.5%）
+- [[paper-2026-106-cortex]] — 长时程操作双向对齐框架（32 技能原语）
+- [[paper-2026-110-furniturevla]] — 双臂家具组装 1550 步长时程
+- [[paper-2026-122-dexverse]] — 100 任务灵巧操作模块化基准（3 臂 6 手）
+
+新建 1 个 concept（research/concepts/）：
+- [[concept-t011-manipulation]] — T011 选题总览：5 维度技术路线收敛
+
+raw sources 同步：
+- raw/papers/ 新增 7 份论文笔记
+
+index.md 更新：research/entities +7、research/concepts +1，总页数 25→33
+
+选题覆盖进展：
+- T008（3D+VLA）：5 篇（不变）
+- T009（VLA 安全）：7 篇（不变）
+- T010（数据效率）：3 篇（不变）
+- **T011（操作/灵巧）：0 篇 → 7 篇**（新建选题，含 1 ICRA 顶会 + 1 大规模基准）
+
+研究空白识别：
+1. 高 DoF + 长时程交叉（>500 步灵巧操作几乎空白）
+2. 力反馈与 VLA 融合（本批论文均无触觉/力反馈）
+3. Deformable 物体操作（柔性物体操作缺失）
+4. 跨本体灵巧迁移（Dexora 验证可行性，DexVerse 揭示泛化仍困难）
+
+操作员：科研助手 (research-manager)
