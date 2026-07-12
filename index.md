@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-11 | Total pages: 7
+> Last updated: 2026-07-12 | Total pages: 12
 
 ## Conventions
 
@@ -20,7 +20,8 @@
 
 ### Concepts
 
-<!-- 管理方法论、时间管理、协作流程 -->
+- [[concept-ai-innovation-workshop-philosophy]] — Neural Bloom：AI 创新工作坊设计哲学（5 大支柱）
+- [[concept-semester-summary-2025-2026-2]] — 2025-2026-2 学期工作小结（5 大维度）
 
 ### Queries
 
@@ -73,7 +74,10 @@
 
 ### Entities
 
-<!-- 跨域通用：老板本人、学校、跨域项目 -->
+- [[prof-lin-zehong]] — 林泽洪教授：人工智能教研室主任，丽水职业技术学院
+- [[ai-research-teaching-section]] — 人工智能专业教研室：6 大专业，学生 996 人
+- [[electronics-info-college]] — 电子信息学院：6 大专业方向
+- [[lishui-vocational-tech-college]] — 丽水职业技术学院：高职院校，林的主校
 
 ### Concepts
 

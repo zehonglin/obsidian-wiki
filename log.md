@@ -76,3 +76,25 @@
 ### [2026-07-11 23:39] update | README.md created | main
 - 添加仓库顶层 README.md（仓库介绍、目录、agent 边界、接入方式）
 - 远端推送（SSH 走顺，14KB）
+
+### [2026-07-12 11:35] ingest | First priority: 5 cross-domain entity/concept pages | manager
+来源：老板指令"按优先级，先做第一个"
+- 大总管盘点三个 agent 历史内容后报告，老板挑了高价值低风险的第一批
+
+新建 5 个 wiki 页：
+
+**shared/entities/**（跨域通用，标 `[proposed-by:main]`）：
+- [[prof-lin-zehong]] — 老板本人
+- [[ai-research-teaching-section]] — 人工智能教研室
+- [[electronics-info-college]] — 电子信息学院
+- [[lishui-vocational-tech-college]] — 丽水职业技术学院
+
+**manager/concepts/**（大总管主理）：
+- [[concept-ai-innovation-workshop-philosophy]] — Neural Bloom 设计哲学
+- [[concept-semester-summary-2025-2026-2]] — 2025-2026-2 学期工作小结
+
+更新：index.md（manager/concepts 和 shared/entities 各新增条目）
+
+总页数从 7 增至 12。
+
+**[proposed-by:main]** 因为包含教研室和学校这种跨域实体，按 SCHEMA 规范标 proposed。
