@@ -53,7 +53,7 @@ confidence: high
 - 与老板工作强关联：
   - 教师应用 AI（教育部《教师生成式人工智能应用指引》——红线：不得直接使用 AI 生成论文）
   - 卫生健康方向间接价值（医疗 AI 安全）
-- 与 [[concept-ai-research-teaching-section]] 中"教研室 AI 应用"主题配套
+- 与 [[ai-research-teaching-section]] 中"教研室 AI 应用"主题配套
 
 ## 局限性
 

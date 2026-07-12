@@ -48,10 +48,10 @@ confidence: high
 ## 关键引用 / 相关页
 
 - [[concept-t008-3d-vla]]
-- [[concept-vggt]]
+- VGGT
 - [[paper-2026-018-starry]] — 同一研究方向，提出 GASAM 注意力机制
 - [[paper-2025-002-og-vla]] — 同一方向，用正交投影解决视角问题
 
 ## 相关 wiki 页
 
-- [[paper-2026-001]]（entity 简称别名页）
+- 3D-Mix（entity 简称别名页）

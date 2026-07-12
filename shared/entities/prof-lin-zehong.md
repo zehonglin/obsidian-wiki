@@ -8,7 +8,7 @@ domain: management
 visibility: shared
 tags: [person]
 sources: [raw/files-from-main-workspace/USER.md, raw/files-from-main-workspace/MEMORY.md, raw/files-from-main-workspace/docs/学期小结-2025-2026-2.md]
-related_pages: [concept-ai-research-teaching-section, concept-semester-summary-2025-2026-2]
+related_pages: [ai-research-teaching-section, concept-semester-summary-2025-2026-2]
 confidence: high
 ---
 
@@ -56,4 +56,4 @@ confidence: high
 
 - 学期小结：[[concept-semester-summary-2025-2026-2]]（2025-2026-2 学期）
 - AI 创新工作坊：[[concept-ai-innovation-workshop-philosophy]]
-- 教研室文档库：[[concept-ai-research-teaching-section#文档库]]
+- 教研室文档库：[[ai-research-teaching-section]]

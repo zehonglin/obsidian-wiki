@@ -52,7 +52,7 @@ confidence: high
 | 教材 | 自编教材、教材建设相关 | ⏳ 待归档 |
 | 其他 | 不便归类 | ⏳ 待归档 |
 
-详见 [[concept-jiaoyan-jidi-document-library]]（待建）
+详见 教研室文档库（待建）
 
 ## Markdown 头部规范（教学助手归档约定）
 

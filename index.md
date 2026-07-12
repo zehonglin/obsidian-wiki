@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 62
+> Last updated: 2026-07-12 | Total pages: 69
 
 ## Conventions
 
@@ -86,6 +86,8 @@
 ### Concepts
 
 - [[concept-t008-3d-vla]] — T008 选题总览：3D 视觉增强 VLA（3 条技术路线收敛）
+- [[concept-vla-model]] — VLA 模型总览（跨 T008-T014 综述入口，stub）
+- [[concept-world-model-for-robotics]] — 世界模型在机器人中的应用（跨 T008/T010/T014 综述，stub）
 - [[concept-t009-safety-robustness]] — T009 选题：VLA 安全与鲁棒性（5 个研究空白）
 - [[concept-t010-data-efficiency]] — T010 选题：VLA 数据效率与少样本适配（3 个最新工作角度）
 - [[concept-world-model-distillation]] — 世界模型蒸馏：用想象训练替代物理交互
