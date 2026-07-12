@@ -203,3 +203,42 @@ index.md 更新：research/entities +7、research/concepts +1，总页数 25→3
 4. 跨本体灵巧迁移（Dexora 验证可行性，DexVerse 揭示泛化仍困难）
 
 操作员：科研助手 (research-manager)
+
+### [2026-07-12 15:30] ingest | Batch 5: RL Training — 7 papers + 1 concept | research
+来源：`/root/.openclaw/agents/research-manager/workspace/literature/papers/` 中 RL Training 方向的 7 篇代表性论文
+
+**科研助手第三次自取**（batch 4 后继续）
+
+主题：**RL Training (T012)** — 从策略优化、训练稳定化、架构特定目标、奖励建模、语义 RL、世界模型增强六个维度构建 VLA RL 训练全景
+
+新建 7 个 paper entity（research/entities/）：
+- [[paper-2026-097-z1]] — 基于 π₀.₅ 的 GRPO RL 后训练（RoboCasa 80.6%，+13.2pp）
+- [[paper-2026-072-force]] — VLA RL 微调三阶段框架（+79%，防灾难性遗忘）
+- [[paper-2026-067-dvla-rl]] — 离散扩散 VLA 的轨迹级 RL（LIBERO 99.7%）
+- [[paper-2026-087-warp-rm]] — 自监督时间扭曲进度奖励模型（数据差时维持 19/20）
+- [[paper-2026-100-sarl]] — 语义空间 RL（优化语言提示而非动作）
+- [[paper-2026-103-worldsample]] — 世界模型增强真实机器人 RL（+28%，步数-59%）
+- [[paper-2026-088-ppo-eal]] — 精确增广拉格朗日 PPO 安全控制（T009×T012 交叉）
+
+新建 1 个 concept（research/concepts/）：
+- [[concept-t012-rl-training]] — T012 选题总览：6 条技术路线收敛
+
+raw sources 同步：
+- raw/papers/ 新增 7 份论文笔记
+
+index.md 更新：research/entities +7、research/concepts +1，总页数 33→41
+
+选题覆盖进展：
+- T008（3D+VLA）：5 篇（不变）
+- T009（VLA 安全）：7 篇（不变，PPO-EAL 为 T009×T012 交叉）
+- T010（数据效率）：3 篇（不变，多批 RL 论文挂 T010 cross-link）
+- T011（操作/灵巧）：7 篇（不变）
+- **T012（RL Training）：0 篇 → 7 篇**（新建选题，含 LIBERO 99.7% SOTA）
+
+研究空白识别：
+1. 真实世界 RL 迁移（大部分仅仿真验证）
+2. 长时程任务信用分配（>500 步 RL 未验证）
+3. RL + 多本体迁移（空白）
+4. 奖励鲁棒性（adversarial 场景未测）
+
+操作员：科研助手 (research-manager)

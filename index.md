@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 33
+> Last updated: 2026-07-12 | Total pages: 41
 
 ## Conventions
 
@@ -56,6 +56,13 @@
 - [[paper-2026-106-cortex]] — Cortex：长时程操作双向对齐框架（32 技能原语，T011）
 - [[paper-2026-110-furniturevla]] — FurnitureVLA：双臂家具组装 1550 步长时程（T011）
 - [[paper-2026-122-dexverse]] — DexVerse：100 任务灵巧操作模块化基准（3 臂 6 手，T011）
+- [[paper-2026-097-z1]] — Z-1：基于 π₀.₅ 的 GRPO RL 后训练（RoboCasa 80.6%，T012）
+- [[paper-2026-072-force]] — FORCE：VLA RL 微调三阶段框架（+79%，防遗忘，T012）
+- [[paper-2026-067-dvla-rl]] — dVLA-RL：离散扩散 VLA 的 RL 优化（LIBERO 99.7%，T012）
+- [[paper-2026-087-warp-rm]] — WARP-RM：自监督时间扭曲进度奖励模型（T012）
+- [[paper-2026-100-sarl]] — SARL：语义空间 RL 适配通用机器人策略（T012）
+- [[paper-2026-103-worldsample]] — WorldSample：世界模型增强的真实机器人闭环 RL（+28%，T012）
+- [[paper-2026-088-ppo-eal]] — PPO-EAL：精确增广拉格朗日 PPO 安全机器人控制（T009/T012）
 
 ### Concepts
 
@@ -64,6 +71,7 @@
 - [[concept-t010-data-efficiency]] — T010 选题：VLA 数据效率与少样本适配（3 个最新工作角度）
 - [[concept-world-model-distillation]] — 世界模型蒸馏：用想象训练替代物理交互
 - [[concept-t011-manipulation]] — T011 选题：操作与灵巧操作（5 维度，7 篇覆盖）
+- [[concept-t012-rl-training]] — T012 选题：VLA 的 RL 训练（6 条技术路线，7 篇覆盖）
 
 ### Comparisons
 
