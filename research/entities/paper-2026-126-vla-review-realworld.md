@@ -2,6 +2,7 @@
 title: "VLA 部署综述：A Review Towards Real-World Applications"
 created: 2026-07-12
 updated: 2026-07-12
+forward_ref_fixed: 2026-07-12
 type: entity
 agent: research
 domain: ai-research
@@ -57,7 +58,7 @@ confidence: high
 ## 与已录入论文的交叉
 
 - **机器人平台**部分涵盖 T011 论文中使用的所有平台（Dexora 双臂、FurnitureVLA 家具组装）
-- **数据采集**部分与 T010 选题的 *abc scalable behavior cloning*（待 ingest）（ABC-130K 数据集）直接相关
+- **数据采集**部分与 T010 选题的 [[paper-2026-079-abc-scalable-behavior-cloning]]（ABC-130K 数据集）直接相关
 - **安全部署**部分与 T009 的 [[paper-2026-046-pre-vla]]（运行时验证）交叉
 
 ## 局限性

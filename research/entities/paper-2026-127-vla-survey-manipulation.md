@@ -2,6 +2,7 @@
 title: "VLA 操作综述：Survey of VLA Models for Embodied Manipulation"
 created: 2026-07-12
 updated: 2026-07-12
+forward_ref_fixed: 2026-07-12
 type: entity
 agent: research
 domain: ai-research
@@ -31,7 +32,7 @@ confidence: high
 
 | 维度 | 核心问题 | 代表工作 | 与 wiki 交叉 |
 |---|---|---|---|
-| **模型架构** | Transformer → Diffusion → Flow → MoE 演进 | RT-2, π₀, RDT-1B, *internvla a15*（待 ingest） | T008 |
+| **模型架构** | Transformer → Diffusion → Flow → MoE 演进 | RT-2, π₀, RDT-1B, [[paper-2026-115-internvla-a15]] | T008 |
 | **训练数据** | 数据规模/多样性/采集方法 | Open X-Embodiment, DROID, ABC-130K | T010 |
 | **预训练方法** | 表征对齐、多模态预训练策略 | LAION, OpenVLA pretrain | T010 |
 | **后训练方法** | 微调、RL 对齐、安全约束 | GRPO, PPO, RLHF | T012 |
@@ -54,12 +55,12 @@ confidence: high
 
 ### 架构维度
 - [[paper-2026-038-dexora]] — 36-DoF 双臂（MoE 方向）
-- *qwen vla*（待 ingest） — Qwen-VL 骨干
-- *internvla a15*（待 ingest） — 潜在前瞻架构
+- [[paper-2026-050-qwen-vla]] — Qwen-VL 骨干
+- [[paper-2026-115-internvla-a15]] — 潜在前瞻架构
 
 ### 数据维度
-- *abc scalable behavior cloning*（待 ingest） — ABC-130K 数据集
-- *qwen robotmanip alignment*（待 ingest） — 38,100 小时预训练语料
+- [[paper-2026-079-abc-scalable-behavior-cloning]] — ABC-130K 数据集
+- [[paper-2026-104-qwen-robotmanip-alignment]] — 38,100 小时预训练语料
 
 ### 后训练维度
 - [[paper-2026-097-z1]] — GRPO RL 后训练

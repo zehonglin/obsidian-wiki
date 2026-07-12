@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 69
+> Last updated: 2026-07-12 | Total pages: 75
 
 ## Conventions
 
@@ -82,6 +82,12 @@
 - [[paper-2026-126-vla-review-realworld]] — VLA 部署综述：实际应用六维度（IEEE Access，U Tokyo/Oxford/UT Austin）
 - [[paper-2026-127-vla-survey-manipulation]] — VLA 操作综述：五维度框架（中文，arXiv 2508.15201）
 - [[paper-2026-128-embodied-ai-sae]] — Embodied AI 行业白皮书：SAE World Congress 2026（安全/治理/标准化）
+- [[paper-2026-079-abc-scalable-behavior-cloning]] — ABC：全开源 BC 工具栈（ABC-130K 数据集 / 3500h / 195 任务，T010）
+- [[paper-2026-104-qwen-robotmanip-alignment]] — Qwen-RobotManip：三维对齐+38K小时预训练（跨15平台 SOTA，T008/T010）
+- [[paper-2026-083-relafford6d]] — RelAfford6D：关系6D可供性图训练无关操作框架（T008/T011）
+- [[paper-2026-094-bpp-behavior-prompting]] — BPP：单次演示 behavior prompting 少样本操作（T010）
+- [[paper-2026-050-qwen-vla]] — Qwen-VLA：统一操作+导航+轨迹预测的 VLA 基础模型（LIBERO 97.9%，T008/T009/T010）
+- [[paper-2026-115-internvla-a15]] — InternVLA-A1.5：潜在前瞻+统一专家的 VLA 基础模型（6基准最佳，T008/T010/T014）
 
 ### Concepts
 

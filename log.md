@@ -398,3 +398,29 @@ index.md 更新：research/entities +8、research/concepts +1，总页数 49→5
 - 老板手动：`bash /root/.openclaw/workspace/wiki-lint.sh`
 - 或在 cron 中每月自动跑一次
 - 或新 batch 完成后自动跑（建议加 git hook）
+
+### [2026-07-12 17:44] ingest | Batch 9: 闭环 forward refs — 6 papers + TODO recovery | research
+来源：lint 检查发现的 10 个 forward ref TODO，本批全部闭环
+
+新建 6 个 paper entity：
+- [[paper-2026-079-abc-scalable-behavior-cloning]] — ABC 全开源 BC 工具栈（ABC-130K，3500h，195 任务，T010）
+- [[paper-2026-104-qwen-robotmanip-alignment]] — Qwen-RobotManip 三维对齐+38K小时预训练（跨15平台 SOTA，T008/T010）
+- [[paper-2026-083-relafford6d]] — RelAfford6D 关系6D可供性图（训练无关，T008/T011）
+- [[paper-2026-094-bpp-behavior-prompting]] — BPP 单次演示 behavior prompting（任务多样性>数据量，T010）
+- [[paper-2026-050-qwen-vla]] — Qwen-VLA 统一操作+导航 VLA 基础模型（LIBERO 97.9%，T008/T009/T010）
+- [[paper-2026-115-internvla-a15]] — InternVLA-A1.5 潜在前瞻+统一专家（6基准最佳，T008/T010/T014）
+
+闭环动作：5 个引用页面的 TODO → wikilink 还原（共 +11 wikilinks）
+- paper-2026-126: +1 wikilink（abc → [[paper-2026-079-abc-scalable-behavior-cloning]]）✅ 闭环 +1
+- paper-2026-127: +4 wikilinks（qwen-vla, internvla-a15, abc, qwen-robotmanip）✅ 闭环 +4
+- paper-2026-128: +2 wikilinks（abc, qwen-robotmanip）✅ 闭环 +2
+- paper-2026-042: +1 wikilink（relafford6d → [[paper-2026-083-relafford6d]]）✅ 闭环 +1
+- paper-2026-100: +1 wikilink（bpp → [[paper-2026-094-bpp-behavior-prompting]]）✅ 闭环 +1
+- paper-2026-014: 1 处「未来待 ingest」为表格注释，非 forward ref，保留
+
+增量 commit 策略（3 步抗中断）：
+1. commit 1/3: papers 079, 104, 083 — SHA 2a6eeb0
+2. commit 2/3: papers 094, 050, 115 — SHA 3d5d40a
+3. commit 3/3: TODO 还原 + index/log 更新
+
+操作员：科研助手（research-manager subagent）

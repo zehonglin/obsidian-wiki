@@ -2,6 +2,7 @@
 title: "Embodied AI in Action: SAE World Congress 2026 行业白皮书"
 created: 2026-07-12
 updated: 2026-07-12
+forward_ref_fixed: 2026-07-12
 type: entity
 agent: research
 domain: ai-research
@@ -57,8 +58,8 @@ confidence: medium
 - [[paper-2026-063-libero-safety]] — 安全基准（学术对应 SOTIF）
 
 ### 部署维度
-- *abc scalable behavior cloning*（待 ingest） — 开源工具链（数据采集对应行业标准实践）
-- *qwen robotmanip alignment*（待 ingest） — 跨 15 平台（对应多机器人平台标准化需求）
+- [[paper-2026-079-abc-scalable-behavior-cloning]] — 开源工具链（数据采集对应行业标准实践）
+- [[paper-2026-104-qwen-robotmanip-alignment]] — 跨 15 平台（对应多机器人平台标准化需求）
 
 ## 局限性
 
