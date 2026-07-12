@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 49
+> Last updated: 2026-07-12 | Total pages: 58
 
 ## Conventions
 
@@ -70,6 +70,14 @@
 - [[paper-2026-091-booster-lab]] — Booster Lab：data-centric 人形运动策略学习（T013/T010）
 - [[paper-2026-093-vlk]] — VLK：3DGS 合成 48K 轨迹学习人形 loco-manipulation（T013/T008）
 - [[paper-2026-095-human-as-humanoid]] — Human-as-Humanoid：人类视频零样本人形迁移（4.8-7.2×，T013/T010）
+- [[paper-2024-001-3d-vla]] — 3D-VLA：3D 视觉-语言-动作生成式世界模型开山之作（arxiv 2403.09631，T008/T014）
+- [[paper-2026-057-rynnvla002-unified-vla-wm]] — RynnVLA-002：统一 VLA 与世界模型双向增强（LIBERO 97.4%，T008/T010/T014）
+- [[paper-2026-071-icwm-in-context-world-model]] — ICWM：上下文世界建模零微调跨环境适配（T010/T014）
+- [[paper-2026-077-regen-wam-continual-imitation]] — REGEN：WAM 生成式回放持续学习（遗忘↓50%，T010/T014）
+- [[paper-2026-101-vt-wam-visual-tactile]] — VT-WAM：视觉-触觉世界动作模型（contact-rich 71.67%，T008/T010/T011/T014）
+- [[paper-2026-108-rynnworld-4d]] — RynnWorld-4D：4D 具身世界模型（RGB+深度+光流联合生成，T008/T014）
+- [[paper-2026-056-gaussiandream-3d-vla]] — GaussianDream：前馈式 3D 高斯世界模型插件（LIBERO 98.4% SOTA，T008/T014）
+- [[paper-2026-107-bridge-wa]] — Bridge-WA：世界模型知识蒸馏增强 VLA 泛化（OOD 提升，T008/T010/T014）
 
 ### Concepts
 
@@ -80,6 +88,7 @@
 - [[concept-t011-manipulation]] — T011 选题：操作与灵巧操作（5 维度，7 篇覆盖）
 - [[concept-t012-rl-training]] — T012 选题：VLA 的 RL 训练（6 条技术路线，7 篇覆盖）
 - [[concept-t013-navigation]] — T013 选题：导航与运动（3 条路线，7 篇覆盖，零训练→合成数据→RL）
+- [[concept-t014-wm]] — T014 选题：世界模型（4 条技术路线，16 篇覆盖，生成式→统一训练→蒸馏→新范式）
 
 ### Comparisons
 

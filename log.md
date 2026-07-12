@@ -286,3 +286,57 @@ index.md 更新：research/entities +7、research/concepts +1，总页数 41→4
 4. 长期导航（>1h）安全退化未研究
 
 操作员：科研助手 (research-manager)
+
+---
+
+## 2026-07-12 batch 7 — T014 World Models（8 篇 + 1 concept）
+
+**选题**：T014（世界模型）—— 核心方法论选题，贯穿 VLA 所有维度
+
+**论文**（8 篇）：
+- [[paper-2024-001-3d-vla]] — 3D-VLA：3D 视觉-语言-动作生成式世界模型开山之作（2403.09631，T008/T014）
+- [[paper-2026-057-rynnvla002-unified-vla-wm]] — RynnVLA-002：统一 VLA 与世界模型双向增强（LIBERO 97.4%，LeRobot +50%）
+- [[paper-2026-071-icwm-in-context-world-model]] — ICWM：上下文世界建模，零微调跨环境适配
+- [[paper-2026-077-regen-wam-continual-imitation]] — REGEN：WAM 生成式回放持续学习（遗忘↓50%）
+- [[paper-2026-101-vt-wam-visual-tactile]] — VT-WAM：视觉-触觉世界动作模型（contact-rich 71.67%）
+- [[paper-2026-108-rynnworld-4d]] — RynnWorld-4D：4D 具身世界模型（RGB+深度+光流，2.544 亿帧）
+- [[paper-2026-056-gaussiandream-3d-vla]] — GaussianDream：前馈式 3D 高斯世界模型插件（LIBERO 98.4% SOTA）
+- [[paper-2026-107-bridge-wa]] — Bridge-WA：世界模型知识蒸馏（位置+变化+语义三先验，OOD 泛化）
+
+新建 1 个 concept（research/concepts/）：
+- [[concept-t014-wm]] — T014 选题总览：世界模型四条技术路线（生成式→统一训练→蒸馏→新范式）
+
+raw sources 同步：
+- raw/papers/ 新增 8 份论文笔记
+
+index.md 更新：research/entities +8、research/concepts +1，总页数 49→58
+
+**四条技术路线**：
+1. **生成式世界模型**：3D-VLA → GaussianDream → RynnWorld-4D（从点云到高斯到 4D）
+2. **VLA × WM 统一训练**：RynnVLA-002（双向增强）↔ MotuBrain/MemoryWAM
+3. **世界模型知识蒸馏**：World2VLM → Bridge-WA → GaussianDream（推理零开销）
+4. **WM 驱动新范式**：REGEN（持续学习）、ICWM（跨环境适配）、VT-WAM（触觉 WAM）
+
+**与已有 WAM 论文的知识图谱**：
+- WAM Survey 为顶层地图，MotuBrain 为统一基线
+- VT-WAM = MotuBrain + 触觉；MemoryWAM = MotuBrain + 记忆；REGEN = MotuBrain + 生成回放
+- Bridge-WA = World2VLM 的 VLA 版本（空间蒸馏 → 变化蒸馏）
+- GaussianDream 与 RynnWorld-4D 为 3D 世界模型两条路线（高斯 vs RGB-DF）
+
+选题覆盖进展：
+- T008（3D+VLA）：5 篇（不变，GaussianDream/RynnWorld-4D/3D-VLA 为 cross-link）
+- T009（VLA 安全）：7 篇（不变）
+- T010（数据效率）：3 篇（不变，多批 WM 论文挂 T010 cross-link）
+- T011（操作/灵巧）：7 篇（不变，VT-WAM 为 cross-link）
+- T012（RL Training）：7 篇（不变，WorldSample 为 cross-link）
+- T013（Navigation）：7 篇（不变）
+- **T014（World Models）：0 篇 → 8 篇 + 1 concept**（新建选题，含跨批次 16 篇 WM 相关）
+
+研究空白识别：
+1. 世界模型 × 导航（WM 集中在操作，导航场景空白）
+2. 多本体世界模型（不同机器人共享一个 WM 未验证）
+3. 长时程预测质量（REGEN 揭示 horizon 增加时退化）
+4. 触觉/力/声音等多模态世界模型扩展
+5. 世界模型 + RL 闭环的 sim-to-real gap
+
+操作员：科研助手 (research-manager)
