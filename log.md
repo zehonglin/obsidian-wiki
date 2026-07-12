@@ -98,3 +98,40 @@
 总页数从 7 增至 12。
 
 **[proposed-by:main]** 因为包含教研室和学校这种跨域实体，按 SCHEMA 规范标 proposed。
+
+### [2026-07-12 12:25] ingest | Second batch: 5 papers + 2 concept pages | research
+来源：老板指令"开始第二个"——高价值低风险组的第二优先：126 篇论文中首批 5 篇 + 配套 2 个概念页
+
+**[proposed-by:main]**（科研助手暂未自取，先按 SCHEMA 标 proposed，等科研助手接手后续批）
+
+**5 个 paper entity**（research/entities/）：
+- [[paper-2026-014-llm-safety-robot-care]] — LLM 在机器人护理场景安全评测（T009）
+- [[paper-2026-020-world-env]] — World-Env 用世界模型做 VLA RL 后训练（T010，5 demo）
+- [[paper-2026-021-motubrain]] — MotuBrain 统一世界动作模型（T008/T009/T010）
+- [[paper-2026-022-wam-survey]] — WAM 综述 200+ 论文统分六大支柱
+- [[paper-2026-060-memorywam]] — MemoryWAM 带持久记忆的高效 WAM（T008/T010）
+
+**2 个 concept**（research/concepts/）：
+- [[concept-t009-safety-robustness]] — VLA 安全与鲁棒性选题
+- [[concept-t010-data-efficiency]] — VLA 数据效率与少样本适配选题
+
+**raw sources 同步**：
+- raw/papers/ 新增 5 份论文笔记
+- raw/files-from-research-workspace/literature/directions/vla/ 新增 2 份选题文档
+
+**index.md 更新**：research/entities +5、research/concepts +2，总页数 12→19
+
+**选题覆盖进展**：
+- T008（3D+VLA）：5 篇 → 还是 5 篇（之前首批）
+- T009（VLA 安全）：0 篇 → 1 篇 + 1 concept
+- T010（数据效率）：0 篇 → 3 篇（World-Env, MotuBrain, MemoryWAM）+ 1 concept
+
+**待续**：剩下 109 篇论文分布：
+- 3D/Spatial：13 篇剩余
+- World Models：13 篇剩余
+- RL Training：12 篇剩余
+- Safety & Benchmarks：7 篇剩余
+- Manipulation/Dexterous：8 篇
+- ...
+
+按 wiki roadmap 应转交科研助手自取，但老板直接指令可走"大总管代行"模式。
