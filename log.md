@@ -340,3 +340,19 @@ index.md 更新：research/entities +8、research/concepts +1，总页数 49→5
 5. 世界模型 + RL 闭环的 sim-to-real gap
 
 操作员：科研助手 (research-manager)
+
+### [2026-07-12 15:54] ingest | Batch 8: VLA Survey/Review 横向收束 — 4 papers + 1 concept update | research
+来源：老板指令"继续科研助手"
+
+4 个 paper entity（research/entities/）：
+- [[paper-2026-125-vla-survey-embodied-ai]] — VLA 学术综述：IEEE TNNLS，三研究路线分类法（T008-T014 全覆盖）
+- [[paper-2026-126-vla-review-realworld]] — VLA 部署综述：IEEE Access，实际应用六维度
+- [[paper-2026-127-vla-survey-manipulation]] — VLA 操作综述：中文，arXiv 2508.15201，五维度框架
+- [[paper-2026-128-embodied-ai-sae]] — Embodied AI 行业白皮书：SAE World Congress 2026
+
+更新 1 个 concept：
+- [[concept-t008-3d-vla]] — 新增「相关综述」区段（4 篇综述交叉引用）
+
+⚠️ 子 agent 在 commit 阶段因 API rate limit 失败，由大总管手动 commit 收尾。
+
+操作员：科研助手（失败）→ 大总管代行 commit

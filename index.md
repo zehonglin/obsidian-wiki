@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 58
+> Last updated: 2026-07-12 | Total pages: 62
 
 ## Conventions
 
@@ -78,6 +78,10 @@
 - [[paper-2026-108-rynnworld-4d]] — RynnWorld-4D：4D 具身世界模型（RGB+深度+光流联合生成，T008/T014）
 - [[paper-2026-056-gaussiandream-3d-vla]] — GaussianDream：前馈式 3D 高斯世界模型插件（LIBERO 98.4% SOTA，T008/T014）
 - [[paper-2026-107-bridge-wa]] — Bridge-WA：世界模型知识蒸馏增强 VLA 泛化（OOD 提升，T008/T010/T014）
+- [[paper-2026-125-vla-survey-embodied-ai]] — VLA 学术综述：三条研究路线分类法（IEEE TNNLS，T008-T014 全覆盖）
+- [[paper-2026-126-vla-review-realworld]] — VLA 部署综述：实际应用六维度（IEEE Access，U Tokyo/Oxford/UT Austin）
+- [[paper-2026-127-vla-survey-manipulation]] — VLA 操作综述：五维度框架（中文，arXiv 2508.15201）
+- [[paper-2026-128-embodied-ai-sae]] — Embodied AI 行业白皮书：SAE World Congress 2026（安全/治理/标准化）
 
 ### Concepts
 
