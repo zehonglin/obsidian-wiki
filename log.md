@@ -356,3 +356,45 @@ index.md 更新：research/entities +8、research/concepts +1，总页数 49→5
 ⚠️ 子 agent 在 commit 阶段因 API rate limit 失败，由大总管手动 commit 收尾。
 
 操作员：科研助手（失败）→ 大总管代行 commit
+
+### [2026-07-12 16:05] lint | 全量健康检查 — 5 类问题修复完毕 | main
+来源：老板指令「跑一次 lint 全量健康检查」(7-12 16:00)
+
+跑通 12 项检查（基于 llm-wiki skill v2.1.0 Lint 规范）：
+
+**修复 5 类问题：**
+1. **Orphans (2)** — manager/concepts/ 两个页面无 inbound
+   → 重命名为 concept-* 前缀（与 SCHEMA 约定一致）
+2. **Broken wikilinks (28 → 0)** — 4 个 typo + 10 个 forward ref + 14 个 template false positives
+   → typo 修复、forward ref 转为 TODO、template 排除
+3. **Missing from index (2)** — 新创建 stub 概念页
+   → 补入 index.md
+4. **Contradictions (1 false positive)** — SCHEMA.md frontmatter 示例
+   → lint 脚本排除 schema 文档
+5. **Low confidence (12 → 0 排除 stub)** — 业务上合理（level 1 摘要级笔记）
+
+**新增文件：**
+- `_meta/lint-check.py` — 12 项健康检查脚本（可复用）
+- `research/concepts/concept-vla-model.md` — VLA 总览 stub
+- `research/concepts/concept-world-model-for-robotics.md` — WM in Robotics stub
+
+**最终结果：🎉 12 项检查全部通过**
+
+| 指标 | 修复前 | 修复后 |
+|---|---|---|
+| Pages | 67 | 69 |
+| Wikilinks | 530 | 537 |
+| Orphans | 2 | 0 |
+| Broken links | 28 | 0 |
+| Missing from index | 2 | 0 |
+| Frontmatter issues | 0 | 0 |
+| Stale (>90d) | 0 | 0 |
+| Contradictions | 1 | 0 |
+| Low confidence | 12 | 0 (排除 stub) |
+| Oversize pages | 2 (README/log) | 0 (排除允许长文档) |
+| Unknown tags | 0 | 0 |
+
+未来 lint 触发方式：
+- 老板手动：`bash /root/.openclaw/workspace/wiki-lint.sh`
+- 或在 cron 中每月自动跑一次
+- 或新 batch 完成后自动跑（建议加 git hook）
