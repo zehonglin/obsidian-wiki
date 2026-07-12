@@ -424,3 +424,25 @@ index.md 更新：research/entities +8、research/concepts +1，总页数 49→5
 3. commit 3/3: TODO 还原 + index/log 更新
 
 操作员：科研助手（research-manager subagent）
+
+### [2026-07-12 18:00] ingest | Batch 10: T008 主线补强 — 7 papers + concept 路线分类表 | research
+来源：老板指令「继续科研助手下一批」——T008 主线补强（3D/Spatial Perception）
+
+新建 7 个 paper entity（T008 主线）：
+- [[paper-2025-001-graphcot-vla]] — 3D Pose-Object 图 + CoT 处理模糊指令（2025 早期代表，arXiv 2508.07650）
+- [[paper-2026-002-gst-vla]] — 高斯空间 Token + DA-CoT 显式空间推理（LIBERO 96.4%，arXiv 2603.09079）
+- [[paper-2026-017-rag-vlm-spatial]] — RAG 增强 VLM 空间感知（Science Robotics，DOI 10.1126/scirobotics.aea2092）
+- [[paper-2026-030-multiview-vla]] — 多视角扩散先验 + 动作流形学习（arXiv 2605.11832）
+- [[paper-2026-034-evo-depth]] — 0.9B 轻量隐式深度增强 VLA（arXiv 2605.14950）
+- [[paper-2026-039-esi-bench]] — 具身空间智能评测基准（Li Fei-Fei 团队，arXiv 2605.18746）
+- [[paper-2026-055-stereopolicy-3d-vla]] — 立体视觉 3D 操作策略（arXiv 2605.09989）
+
+更新 1 个 concept：
+- [[concept-t008-3d-vla]] — 新增「T008 论文技术路线分类」表格（8+ 路线，路线间关系图，关键洞察），从 3 路线 → 8+ 路线覆盖
+
+增量 commit 策略（3 步抗中断）：
+1. commit 1/3: papers 2025-001, 2026-002, 2026-017 + raw — 前三篇三星
+2. commit 2/3: papers 2026-030, 2026-034, 2026-039, 2026-055 + raw — 后四篇两星
+3. commit 3/3: concept-t008 + index + log — 元数据更新
+
+操作员：科研助手（research-manager subagent）

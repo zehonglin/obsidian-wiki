@@ -2,7 +2,7 @@
 
 > 内容目录。每页按 agent 分区，按类型列出（一行一条 + 简介）。
 > 每次新增/修改页面必更新本文件。
-> Last updated: 2026-07-12 | Total pages: 75
+> Last updated: 2026-07-12 | Total pages: 83
 
 ## Conventions
 
@@ -88,10 +88,17 @@
 - [[paper-2026-094-bpp-behavior-prompting]] — BPP：单次演示 behavior prompting 少样本操作（T010）
 - [[paper-2026-050-qwen-vla]] — Qwen-VLA：统一操作+导航+轨迹预测的 VLA 基础模型（LIBERO 97.9%，T008/T009/T010）
 - [[paper-2026-115-internvla-a15]] — InternVLA-A1.5：潜在前瞻+统一专家的 VLA 基础模型（6基准最佳，T008/T010/T014）
+- [[paper-2025-001-graphcot-vla]] — GraphCoT-VLA：3D Pose-Object 图 + CoT 处理模糊指令（arXiv 2508.07650，T008）
+- [[paper-2026-002-gst-vla]] — GST-VLA：高斯空间 Token + DA-CoT 显式空间推理（LIBERO 96.4%，T008）
+- [[paper-2026-017-rag-vlm-spatial]] — RAG-VLM-Spatial：检索增强 VLM 空间感知（Science Robotics，T008）
+- [[paper-2026-030-multiview-vla]] — MultiView-VLA：多视角扩散先验 + 动作流形学习（T008）
+- [[paper-2026-034-evo-depth]] — Evo-Depth：0.9B 轻量隐式深度增强 VLA（T008）
+- [[paper-2026-039-esi-bench]] — ESI-Bench：具身空间智能评测基准（感知-动作闭环，T008）
+- [[paper-2026-055-stereopolicy-3d-vla]] — StereoPolicy：立体视觉 3D 操作策略（T008）
 
 ### Concepts
 
-- [[concept-t008-3d-vla]] — T008 选题总览：3D 视觉增强 VLA（3 条技术路线收敛）
+- [[concept-t008-3d-vla]] — T008 选题总览：3D 视觉增强 VLA（8+ 技术路线，12 篇覆盖，Batch 10 补强）
 - [[concept-vla-model]] — VLA 模型总览（跨 T008-T014 综述入口，stub）
 - [[concept-world-model-for-robotics]] — 世界模型在机器人中的应用（跨 T008/T010/T014 综述，stub）
 - [[concept-t009-safety-robustness]] — T009 选题：VLA 安全与鲁棒性（5 个研究空白）
